@@ -1,6 +1,6 @@
 package bit2016.paint;
 
-public class Triangle extends Shape {
+public class Triangle extends Shape implements Drawable{
 	private int x1;
 	private int y1;
 	private int x2;
@@ -47,6 +47,10 @@ public class Triangle extends Shape {
 	}
 	public void setY3(int y3) {
 		this.y3 = y3;
+	}
+	@Override
+	public double calculateArea() {
+		return 0;
 	}
 	
 	

@@ -1,6 +1,11 @@
 package bit2016.paint;
 
-public class Pentagon extends Shape {
+public class Pentagon extends Shape implements Drawable {
+
+	@Override
+	public double calculateArea() {
+		return 0;
+	}
 
 	@Override
 	public void draw() {
